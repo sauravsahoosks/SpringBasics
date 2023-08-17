@@ -15,5 +15,6 @@ public class Main
         ApplicationContext context= new ClassPathXmlApplicationContext("spring.xml");
         Doctor doctor=(Doctor)context.getBean("doctor");
         doctor.assist();
+        System.out.println("Qualification of doctor is: "+doctor.getQualification());
     }
 }

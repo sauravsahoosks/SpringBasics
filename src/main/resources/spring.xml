@@ -6,7 +6,9 @@
    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
    <!-- A simple bean definition -->
-   <bean id = "doctor" class = "com.basics.context.Doctor"> </bean>
+   <bean id = "doctor" class = "com.basics.context.Doctor">
+    <property name="qualification" value="MBBS"></property>
+   </bean>
 	<bean id = "nurse" class = "com.basics.context.Nurse"> </bean>
    
 </beans>
