@@ -4,6 +4,8 @@ public class Doctor {
 
 	private String qualification;
 
+	private Nurse nurse;
+
 	public String getQualification() {
 		return qualification;
 	}
