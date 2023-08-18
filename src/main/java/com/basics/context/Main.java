@@ -16,5 +16,10 @@ public class Main
         Doctor doctor=(Doctor)context.getBean("doctor");
         doctor.assist();
         System.out.println("Qualification of doctor is: "+doctor.getQualification());
+        System.out.println("Qualification of doctor is: "+doctor.getNurse());
+        System.out.println("Qualification of doctor is: "+doctor.getSpecialization());
+        Staff manager=(Manager) context.getBean(Manager.class);
+        manager.assist();
+
     }
 }
